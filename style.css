@@ -33,6 +33,17 @@
         nav:hover{
             background-color: black;
         }
+
+        main{
+            text-align: justify;
+            text-align: center;
+            background-color: rgb(2, 1, 1);
+            color: white;
+            width: 800px;
+            margin-left: 500px;
+            
+            
+        }
         body{
             background-image: url("wallpaper004.jpg");
         }
