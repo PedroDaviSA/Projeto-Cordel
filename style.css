@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+<style>
+
+        :root{
+            --cor1: black;
+        }
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+         
+        header{
+            background-image: url("wallpaper002.jpg");
+            padding-top: 10px;
+            
+        }
+        
+        header>h1{
+            text-align: center;
+            padding: 30px;
+            color: chocolate;
+            
+        }
+            
+        nav{
+            display: inline-block;
+            color: chocolate;
+            margin: 4px;
+            padding: 4px;
+        }
+
+        nav:hover{
+            background-color: black;
+        }
+        body{
+            background-image: url("wallpaper004.jpg");
+        }
+    </style>
