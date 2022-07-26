@@ -12,6 +12,9 @@
          
         header{
             background-image: url("wallpaper002.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
             padding-top: 10px;
             
         }
@@ -19,30 +22,32 @@
         header>h1{
             text-align: center;
             padding: 30px;
-            color: chocolate;
-            
+            color: rgb(0, 0, 0);
+            transform: translatey(0px);
+            animation: titulo 5s ease-in-out infinite;
+        }
+
+        @keyframes titulo{
+            0%{
+                transform: translatey(0px);
+            }
+            50%{
+                transform: translatey(30px);
+            }
+            100%{
+                transform: translatey(0px);
+            }
         }
             
         nav{
             display: inline-block;
-            color: chocolate;
+            color: rgb(3, 2, 2);
             margin: 4px;
             padding: 4px;
         }
 
         nav:hover{
-            background-color: black;
-        }
-
-        main{
-            text-align: justify;
-            text-align: center;
-            background-color: rgb(2, 1, 1);
-            color: white;
-            width: 800px;
-            margin-left: 500px;
-            
-            
+            background-color: rgba(209, 24, 24, 0.301);
         }
         body{
             background-image: url("wallpaper004.jpg");
