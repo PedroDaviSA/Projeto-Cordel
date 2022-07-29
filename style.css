@@ -11,7 +11,7 @@
         }
          
         header{
-            background-image: url("wallpaper002.jpg");
+            background-image: url("wallpaper004.jpg");
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center center;
@@ -50,6 +50,8 @@
             background-color: rgba(209, 24, 24, 0.301);
         }
         body{
-            background-image: url("wallpaper004.jpg");
+            background-image: url("wallpaper002.jpg");
+            background-repeat: no-repeat;
+            background-size: 100%;
         }
     </style>
