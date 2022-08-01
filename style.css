@@ -11,10 +11,10 @@
         }
          
         header{
-            background-image: url("wallpaper004.jpg");
+            background-image: url("imagens/wallhaven-x8m7ev.jpg");
             background-repeat: no-repeat;
             background-size: cover;
-            background-position: center center;
+            background-position: center bottom;
             padding-top: 10px;
             
         }
@@ -50,7 +50,7 @@
             background-color: rgba(209, 24, 24, 0.301);
         }
         body{
-            background-image: url("wallpaper002.jpg");
+            background-image: url("imagens/wallhaven-g7elo3.jpg");
             background-repeat: no-repeat;
             background-size: 100%;
         }
