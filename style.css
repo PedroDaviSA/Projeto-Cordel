@@ -52,6 +52,16 @@
         body{
             background-image: url("imagens/wallhaven-g7elo3.jpg");
             background-repeat: no-repeat;
-            background-size: 100%;
+            background-size: cover;
+            background-attachment: fixed;
         }
+        
+        main{
+            background-color: white;
+            max-width: 800px;
+            margin: auto;
+            text-align: justify;
+            text-align: center;
+            border-radius: 4px;
+            }
     </style>
