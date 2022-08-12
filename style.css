@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
 <style>
-        @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One:ital@1&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Rubik+Marker+Hatch&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap');
 
         :root{
             --cor1: black;
@@ -23,7 +23,7 @@
         
         header>h1{
             text-align: center;
-            font-family: 'Lobster', cursive;
+            font-family: 'Rubik Iso', cursive;
             padding: 30px;
             color: rgb(76, 33, 231);
             transform: translatey(0px);
@@ -66,5 +66,6 @@
             text-align: justify;
             text-align: center;
             border-radius: 4px;
+            font-family: 'Rubik Marker Hatch', cursive;
             }
     </style>
