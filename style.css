@@ -10,46 +10,22 @@
         }
          
         header{
-            background-image: url("imagens/wallhaven-x8m7ev.jpg");
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center bottom;
+            background-color: rgba(0, 0, 0, 0.432);
             padding-top: 10px;
-            
         }
         
-        header>h1{
-            text-align: center;
-            padding: 30px;
-            color: rgb(76, 33, 231);
-            transform: translatey(0px);
-            animation: titulo 5s ease-in-out infinite;
-        }
-
-        @keyframes titulo{
-            0%{
-                transform: translatey(0px);
-            }
-            50%{
-                transform: translatey(30px);
-            }
-            100%{
-                transform: translatey(0px);
-            }
-        }
-            
         nav{
             display: inline-block;
-            color: rgb(3, 2, 2);
+            color: rgb(255, 255, 255);
             margin: 4px;
             padding: 4px;
         }
 
         nav:hover{
-            background-color: rgba(24, 209, 33, 0.548);
+            background-color: rgba(25, 133, 221, 0.322);
         }
         body{
-            background-image: url("imagens/wallhaven-g7elo3.jpg");
+            background-image: url("imagens/wallhaven-z8kw7g.png");
             background-repeat: no-repeat;
             background-size: cover;
             background-attachment: fixed;
