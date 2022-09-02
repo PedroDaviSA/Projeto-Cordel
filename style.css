@@ -50,10 +50,6 @@ a:hover{
     background-color: rgba(21, 155, 196, 0.288);
 }
 
-section.normal{
-    background-color: white;
-}
-
 section{
     padding-top: 10vh;
     padding-bottom: 10vh;
@@ -61,6 +57,10 @@ section{
     padding-left: 30px;
     font-family: var(--fonte3);
     font-size: 1.5em;
+}
+
+section.normal{
+    background-color: white;
 }
 
 section.imagem{
